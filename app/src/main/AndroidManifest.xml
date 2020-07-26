@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.marco.gkp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_gkp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_gkp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.Detail_Ewarta_Activity"
+            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar">
+
+        </activity>
+        <activity android:name=".activity.CariJemaatActivityListView"
+            android:theme="@style/SplashScreen"/>
+        <activity
+            android:name=".activity.EwartaActivity"
+            android:theme="@style/SplashScreen"/>
+        <activity
+            android:name=".activity.DetailNonKategorialActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.NonKategorialActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.TentangActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.DetailKategorialActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.KategorialActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.CariJemaatActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.RegistrasiActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/SplashScreen" />
+    </application>
+
+</manifest>

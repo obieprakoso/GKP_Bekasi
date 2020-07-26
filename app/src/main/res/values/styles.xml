@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_900</item>
+        <item name="colorPrimaryDark">@color/purple_900</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_900</item>
+        <item name="colorPrimaryDark">@color/purple_900</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Normal_Margin_Style" parent="AppTheme">
+        <item name="android:layout_marginRight">@dimen/margin_right_16</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left_16</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_8</item>
+    </style>
+
+    <style name="Font_family_light" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Font_family_regular" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-regular</item>
+    </style>
+
+    <!--Error label text style-->
+    <style name="MyErrorText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--Correct label text style-->
+    <style name="MyCorrectText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>

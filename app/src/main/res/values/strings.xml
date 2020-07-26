@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">gkp aplikasi</string>
+    <string name="permission_request_message">Izinkan untuk melihat isi file</string>
+</resources>
